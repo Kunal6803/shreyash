@@ -1,0 +1,9 @@
+#include <reg51.h>
+void DELAY_ms(unsigned int ms_Count)
+{
+ int i,j;
+ for(i=0; i<ms_Count; j++)
+ {
+  for(j=0;j<100; j++);
+  }
+  }
